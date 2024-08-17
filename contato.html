@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - Sidney</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 20px 0;
+                text-align: center;
+            }
+
+            nav a {
+                color: #fff;
+                margin: 0 15px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            section {
+                max-width: 800px;
+                margin: 40px auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+
+            h2 {
+                margin-top: 0;
+                color: #333;
+                font-size: 2em;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+
+            label {
+                margin: 15px 0 5px;
+                font-weight: bold;
+                color: #555;
+            }
+
+            input, textarea {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 1em;
+            }
+
+            input:focus, textarea:focus {
+                border-color: #333;
+                outline: none;
+            }
+
+            button {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #333;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 1.1em;
+            }
+
+            button:hover {
+                background-color: #555;
+            }
+
+            p {
+                line-height: 1.6;
+                margin: 20px 0 0;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Explore Sidney</h1>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="turismo.html">Turismo</a>
+                <a href="eventos.html">Eventos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+        <section>
+            <h2>Entre em Contato</h2>
+            <p>Gostaríamos de ouvir de você! Entre em contato conosco para mais informações ou para tirar suas dúvidas.</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Ou entre em contato diretamente pelo telefone: (48) 9963-2179 ou pelo e-mail: <a href="mailto:contato@sidney.com">contato@sidney.com</a></p>
+        </section>
+    </body>
+</html>
